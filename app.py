@@ -27,10 +27,10 @@ st.sidebar.write("Model R2 Score(accuracy) : 64%")
 st.subheader("Enter the House details below:")
 
 area = st.number_input("Area", min_value=100, step=100)
-bedrooms = st.number_input("Bedrooms", min_value=100, step=100)
-bathrooms = st.number_input("Bathrooms", min_value=100, step=100)
-stories = st.number_input("Stories", min_value=100, step=100)
-parking = st.number_input("Parking", min_value=100, step=100)
+bedrooms = st.number_input("Bedrooms")
+bathrooms = st.number_input("Bathrooms")
+stories = st.number_input("Stories")
+parking = st.number_input("Parking")
 
 mainroad = st.selectbox("Mainroad",["Yes","No"])
 guestroom = st.selectbox("Guest room",["Yes","No"])
@@ -80,7 +80,7 @@ if st.button("🏠 Predict Price"):
 
 st.markdown("---")
 st.write("Built using Streamlit for UI and Machine Learning for Model.")
-st.markdwon("---")
+st.markdown("---")
 st.write("""
 #### Author: Sreejith T
 📧 Email: sreejith.py3@gmail.com     
