@@ -29,7 +29,7 @@ st.subheader("Enter the House details below:")
 area = st.number_input("Area", min_value=100, step=100)
 bedrooms = st.number_input("Bedrooms", step=1)
 bathrooms = st.number_input("Bathrooms",step=1)
-stories = st.number_input("Stories",step=1)
+floors = st.number_input("Floors",step=1)
 parking = st.number_input("Parking",step=1)
 
 mainroad = st.selectbox("Mainroad",["Yes","No"])
@@ -59,7 +59,7 @@ if st.button("🏠 Predict Price"):
     features = np.array([[area, 
                           bedrooms, 
                           bathrooms, 
-                          stories, 
+                          floors, 
                           mainroad, 
                           guestroom, 
                           basement,
