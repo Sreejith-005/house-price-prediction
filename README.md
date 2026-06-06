@@ -32,9 +32,15 @@ https://ml-house-price-sys.streamlit.app
 
 Dataset     
 ↓     
+Exploratory Data Analysis(EDA)
+↓     
 Data Preprocessing     
 ↓     
+Outlier Detection & Removal
+↓     
 Feature Encoding     
+↓     
+Feature Transformation (Log Transformation)
 ↓     
 Train-Test Split     
 ↓     
@@ -74,6 +80,7 @@ The model uses the following features:
 | Python | Programming Language |
 | Pandas | Data Handling |
 | NumPy | Numerical Operations |
+| Matplotlib & Seaborn | Data Visualization |
 | Scikit-learn | Machine Learning |
 | Streamlit | Web Application |
 | Joblib | Model Saving/Loading |
@@ -94,7 +101,7 @@ Reason for using Linear Regression:
 
 # 📈 Model Performance
 
-R² Score(Accuracy) ≈ 0.64(64%)
+R² Score(Accuracy) ≈ 0.70(70%)
 
 ---
 
