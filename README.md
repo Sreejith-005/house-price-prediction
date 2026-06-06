@@ -130,9 +130,10 @@ streamlit run app.py
 house_price_project/     
 │     
 ├── app.py     
-├── model_training.ipynb     
-├── house_model.pkl     
-├── scaler.pkl     
+├── model.ipynb     
+├── model.pkl     
+├── scale.pkl   
+├── columns.pkl     
 ├── requirements.txt     
 ├── Housing.csv     
 └── README.md   
