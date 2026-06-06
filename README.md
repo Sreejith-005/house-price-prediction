@@ -32,15 +32,15 @@ https://ml-house-price-sys.streamlit.app
 
 Dataset     
 ↓     
-Exploratory Data Analysis(EDA)
+Exploratory Data Analysis(EDA)     
 ↓     
 Data Preprocessing     
 ↓     
-Outlier Detection & Removal
+Outlier Detection & Removal     
 ↓     
 Feature Encoding     
 ↓     
-Feature Transformation (Log Transformation)
+Feature Transformation (Log Transformation)     
 ↓     
 Train-Test Split     
 ↓     
